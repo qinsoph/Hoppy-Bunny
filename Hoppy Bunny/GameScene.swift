@@ -30,7 +30,7 @@ class GameScene: SKScene {
     override func update(_ currentTime: TimeInterval) {
         /* Called before each frame is rendered */
         let velocityY = hero.physicsBody?.velocity.dy ?? 0
-        
+        //does something
         if velocityY > 400 {
             hero.physicsBody?.velocity.dy = 400
         }
